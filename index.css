@@ -1,0 +1,48 @@
+body {
+    background-color: aqua;
+}
+
+ul {
+    list-style: none;               /*to reset as default*/
+    padding: 0;    
+}
+
+li {
+    background-color: orange;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+li span {
+    color: yellow;
+    flex: 1;                        /*taking remaining space*/
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+li button {
+    color: red;
+    background-color: limegreen;
+    border: none;
+    border-radius: 20px;
+    padding: 15px 20px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+li.completed span{
+    color: green;
+    background-color: gray;
+    text-decoration: line-through;  /*strike through text*/
+}
+
+li input {
+    color: blue;
+    background-color: magenta;
+}
+
+
+
